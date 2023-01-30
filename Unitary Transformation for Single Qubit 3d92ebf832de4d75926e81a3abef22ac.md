@@ -91,12 +91,7 @@ Because $\sigma_z = \begin{pmatrix} 1 & 0\\0 & -1\end{pmatrix}$ is a symmetric m
 \end{pmatrix}$. 
 
 This means that $\left(\frac{i\omega_dt\sigma_z}{2}\right)^n = \begin{pmatrix}
-\frac{i\omega_dt}{2}^n & 0\\
-0 & (-\frac{i\omega_dt}{2})^n
-\end{pmatrix}$ and because $e^{\frac{i\omega_dt\sigma_z}{2}} = \sum_{n=0}^{\infty} \frac{(\frac{i\omega_dt\sigma_z}{2})^n}{n!}$ then we can conclude that $e^{\frac{i\omega_dt\sigma_z}{2}} = \begin{pmatrix}
-e^{\frac{i\omega_dt}{2}} & 0\\
-0 & e^{-\frac{i\omega_dt}{2}}
-\end{pmatrix}$. 
+\frac{i\omega_dt}{2}^n & 0\\0 & (-\frac{i\omega_dt}{2})^n\end{pmatrix}$ and because $e^{\frac{i\omega_dt\sigma_z}{2}} = \sum_{n=0}^{\infty} \frac{(\frac{i\omega_dt\sigma_z}{2})^n}{n!}$ then we can conclude that $e^{\frac{i\omega_dt\sigma_z}{2}} = \begin{pmatrix}e^{\frac{i\omega_dt}{2}} & 0\\0 & e^{-\frac{i\omega_dt}{2}}\end{pmatrix}$. 
 
 Let’s now compute the following: 
 
