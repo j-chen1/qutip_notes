@@ -188,6 +188,7 @@ $$
 
 $$
 = -\frac{\omega_d\sigma_z}{2} + \left(\frac{\omega_r\sigma_z}{2} + \Omega\left(\sigma_+ + e^{-2i\omega_d t}\sigma_- + e^{2i\omega_d t}\sigma_+ + \sigma_-\right) \right)\\
+
 = \frac{(\omega_r -\omega_d)\sigma_z}{2} +\Omega\left(\sigma_+ + e^{-2i\omega_d t}\sigma_- + e^{2i\omega_d t}\sigma_+ + \sigma_-\right)
 $$
 
