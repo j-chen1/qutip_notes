@@ -75,19 +75,34 @@ To simplify the 2nd expression, we first want to transform $e^{i\omega_dt\sigma_
 
 [Matrix exponentiation of Pauli matrix](https://physics.stackexchange.com/questions/510221/matrix-exponentiation-of-pauli-matrix)
 
-Because $\sigma_z = \begin{pmatrix}
-1 & 0 \\
-0 & -1$ is a symmetric matrix, this means we can diagonalize it and convert it into the form $PDP^{-1}$ where $D$ is a diagonal matrix. So $\sigma_z = \begin{pmatrix}1 & 0\\0 & 1\end{pmatrix} = 
+Because $\sigma_z$ is a symmetric matrix, this means we can diagonalize it and convert it into the form $PDP^{-1}$ where $D$ is a diagonal matrix. So $\sigma_z$ is equal to: 
+
+$$
+\begin{align*}
+&= \begin{pmatrix}
+1 & 0\\
+0 & 1
+\end{pmatrix}\\ 
+&= 
 \begin{pmatrix}
 1 & 0\\
 0 & 1
-\end{pmatrix}\begin{pmatrix}
+\end{pmatrix}\\
+&=
+\begin{pmatrix}
 1 & 0\\
 0 & -1
-\end{pmatrix}\begin{pmatrix}
+\end{pmatrix}\\
+&=
+\begin{pmatrix}
 1 & 0\\
 0 & 1
-\end{pmatrix} = I\sigma_zI$ and consequently $\sigma_z ^n = \begin{pmatrix}
+\end{pmatrix}\\
+&= I\sigma_zI$\\
+\end{align*}
+$$
+
+Consequently $\sigma_z ^n = \begin{pmatrix}
 1^n & 0\\
 0 & (-1)^n
 \end{pmatrix}$. 
