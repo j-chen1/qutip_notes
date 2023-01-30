@@ -47,7 +47,6 @@ i\dot UU^\dagger &= i(\frac{i\omega_d\sigma_z}{2}e^{i\omega_dt\sigma_z/2})(e^{-i
 
 &= -\frac{\omega_d\sigma_z}{2}
 \end{align*}
-
 $$
 
 ---
@@ -70,7 +69,6 @@ $$
 \begin{align*}
 \frac{1}{2}\omega_r e^{i\omega_dt\sigma_z/2}\sigma_ze^{-i\omega_dt\sigma_z/2} &= \\
 &= \frac{\omega_r\sigma_z}{2}
-
 \end{align*}
 $$
 
