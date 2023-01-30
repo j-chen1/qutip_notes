@@ -99,7 +99,6 @@ $$
 0 & 1
 \end{pmatrix}\\
 &= I\sigma_zI\\
-\text{By property of a diagonalizable matrix, the following holds: }\\
 \sigma_z ^n &= \begin{pmatrix}
 1^n & 0\\
 0 & (-1)^n
@@ -108,7 +107,13 @@ $$
 \begin{pmatrix}
 \frac{i\omega_dt}{2}^n & 0\\
 0 & (-\frac{i\omega_dt}{2})^n
-\end{pmatrix}\\ \\
+\end{pmatrix}\\
+\end{align*}
+$$
+
+By the exponential of a matrix we can use the previous results to derive the matrix form: 
+$$
+\begin{align*}
 e^{\frac{i\omega_dt\sigma_z}{2}} &= \sum_{n=0}^{\infty} \frac{(\frac{i\omega_dt\sigma_z}{2})^n}{n!}\\
 &= 
 \begin{pmatrix}
