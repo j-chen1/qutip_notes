@@ -40,11 +40,8 @@ We solve for $i\dot UU^\dagger$ through the following:
 $$
 \begin{align*}
 U^{\dagger} &= e^{-i\omega_dt\sigma_z/2}\\
-
 \dot U &= (\frac{i\omega_dt\sigma_z}{2})e^{i\omega_dt\sigma_z/2}\\ \\
-
 i\dot UU^\dagger &= i(\frac{i\omega_d\sigma_z}{2}e^{i\omega_dt\sigma_z/2})(e^{-i\omega_dt\sigma_z/2})\\
-
 &= -\frac{\omega_d\sigma_z}{2}
 \end{align*}
 $$
@@ -67,7 +64,7 @@ Now let’s first take a look at the first expression on the left:
 
 $$
 \begin{align*}
-\frac{1}{2}\omega_r e^{i\omega_dt\sigma_z/2}\sigma_ze^{-i\omega_dt\sigma_z/2} &= \\
+\frac{1}{2}\omega_r e^{i\omega_dt\sigma_z/2}\sigma_ze^{-i\omega_dt\sigma_z/2} &=\\
 &= \frac{\omega_r\sigma_z}{2}
 \end{align*}
 $$
@@ -111,7 +108,6 @@ Let’s now compute the following:
 $$
 \begin{align*}
 e^{i\omega_dt\sigma_z/2}\sigma_xe^{-i\omega_dt\sigma_z/2} &= \\
-
 &= \begin{pmatrix}
 e^{\frac{i\omega_dt}{2}} & 0\\
 0 & e^{-\frac{i\omega_dt}{2}}
