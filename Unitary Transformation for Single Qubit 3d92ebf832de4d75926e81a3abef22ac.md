@@ -124,7 +124,6 @@ e^{-\frac{i\omega_dt}{2}} & 0
 0 & e^{i\omega_dt}\\
 e^{-i\omega_dt} & 0
 \end{pmatrix}\\ \\
-
 \Omega(e^{-i\omega_d t} + e^{-i\omega_d t})e^{i\omega_dt\sigma_z/2}\sigma_xe^{-i\omega_dt\sigma_z/2} &= \Omega(e^{-i\omega_d t} + e^{-i\omega_d t})\begin{pmatrix}
 0 & e^{i\omega_dt}\\
 e^{-i\omega_dt} & 0
